@@ -1,6 +1,6 @@
-FROM debian:10
+FROM arm64v8/debian:buster
 
-MAINTAINER info@jeedom.com
+MAINTAINER baz041@gmail.com
 
 COPY install/install.sh /tmp/
 RUN sh /tmp/install.sh
